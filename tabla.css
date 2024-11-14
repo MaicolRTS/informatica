@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b4d8a6;
+}
+
+header {
+    background-color: #00862b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.header-icons a {
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #11a741;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #f1f1f1;
+}
+
+footer {
+    background-color: #5a9742;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+h2 {
+    color: #6d4f31;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+table td {
+    padding: 10px;
+    vertical-align: top;
+}
+
+table input, table select, table textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+table textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    background-color: #5a9742;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #6d4f31;
+}
+
+footer {
+    background-color: #5a9742;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}

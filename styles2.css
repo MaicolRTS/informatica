@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b4d8a6;
+}
+
+header {
+    background-color: #00862b;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.header-icons a {
+    margin-left: 10px;
+}
+
+nav {
+    background-color: #11a741;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #f1f1f1;
+}
+
+footer {
+    background-color: #5a9742;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 60px; 
+    padding-top: 20px;
+}
+
+.image-item {
+    flex: 1;
+    max-width: 300px;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Contenido de inicio */
+.inicio-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px; 
+}
+
+.inicio-content img {
+    width: 50%;
+    height: auto;
+    margin: 0 20px; 
+}
+
+
+#catalogo table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+}
+
+#catalogo td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #6d4f31;
+}
+
+#catalogo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px; 
+}
+
+#catalogo a {
+    display: block;
+    text-decoration: none;
+    color: #6d4f31;
+    font-weight: bold;
+}
+
+#catalogo a:hover {
+    color: #8c6e4e;
+}

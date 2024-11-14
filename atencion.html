@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atención - Bioterra🌳</title>
+    <link rel="stylesheet" href="tabla.css">
+</head>
+<body>
+
+
+    <header>
+        <h1>Bioterra🌳</h1>
+
+        <div class="header-icons">
+            <a href="https://wa.me/+573009538395" target="_blank"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
+            <a href="https://facebook.com/bioterra" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="https://instagram.com/bioterra" target="_blank"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+    </header>
+
+
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="ofertas.html">Ofertas</a>
+        <a href="catalogo.html">Catálogo</a>
+        <a href="atencion.html">Atención</a>
+    </nav>
+
+    <section id="atencion">
+        <h2>Contáctanos</h2>
+        <p>Por favor, completa los campos a continuación para ponerte en contacto con nosotros:</p>
+        
+        <form action="https://wa.me/3009538397" method="get" target="_blank">
+            <table>
+                <tr>
+                    <td><label for="nombre">Nombre y Apellido:</label></td>
+                    <td><input type="text" id="nombre" name="nombre" placeholder="Ingresa tu nombre" required></td>
+                </tr>
+                <tr>
+                    <td><label for="telefono">Número de Teléfono:</label></td>
+                    <td><input type="tel" id="telefono" name="telefono" placeholder="Ingresa tu número" required></td>
+                </tr>
+                <tr>
+                    <td><label for="arbol">Árbol que deseas adquirir:</label></td>
+                    <td>
+                        <select id="arbol" name="arbol" required>
+                            <option value="Yopo🌳">Yopo🌳</option>
+                            <option value="Flor Amarillo🏵️">Flor Amarillo🏵️</option>
+                            <option value="Madroño🌲">Madroño🌲</option>
+                            <option value="Algarrobo🌳">Algarrobo🌳</option>
+                            <option value="Aceite🪔">Aceite🪔</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="mensaje">Mensaje:</label></td>
+                    <td><textarea id="mensaje" name="mensaje" placeholder="Escribe tu mensaje" required></textarea></td>
+                </tr>
+            </table>
+            <button type="submit">Enviar mensaje a WhatsApp</button>
+        </form>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2024 Bioterra. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
